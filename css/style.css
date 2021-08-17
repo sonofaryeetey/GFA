@@ -1,0 +1,63 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ html{
+   font-family: 'Roboto', 'sans-serif';
+ }
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.banner{
+ width:100%;
+ height:500px;
+ background-image:linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.164)), url("images/payment.jpg");
+ /* background:no-repeat; */
+ /* background-position:cover; */
+ background-size:cover;
+ background-position:center;
+ position:relative;
+}
+
+nav ul a{
+  color:rgb(63, 59, 59);
+}
+
+.hero-text{
+  position:absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text h1{
+  color:white; 
+   font-family:'Alata'
+
+  /* text-transform:uppercase; */
+}
+.hero-text p{
+  margin-bottom:8%;
+  color:rgb(226, 224, 224);
+}
+
+.hero-text a{
+  padding:20px 40px;
+  background-color:rgb(77, 77, 177);
+  text-decoration:none;
+  color:white;
+  border-radius:5px;
+}
+
+.hero-text a:hover{
+  background-color:rgb(76, 76, 204);
+  cursor:pointer;
+}
